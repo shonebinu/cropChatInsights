@@ -1,0 +1,93 @@
+:root {
+    --yellow: #FEF3C7;
+    --black: #262626;
+    --white: #F5F5F5;
+    --green: #115E59;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: var(--black);
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    background-color: var(--white);
+}
+
+.navUl {
+    list-style-type: none;
+    display: flex;
+    font: Ubuntu;
+}
+
+.navUl li {
+    margin-left: 3rem;
+}
+
+.logo {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--green);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--yellow);
+}
+
+.welcomeImage {
+    height: 30vw;
+}
+
+.welcomeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcomeText {
+    font-family: Raleway;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#cropChat {
+    color: var(--green);
+    text-decoration: underline;
+}
+
+#tagLine {
+    font-family: Raleway;
+    font-weight: lighter;
+    font-size: 1.3rem;
+}
+
+#getStarted {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--white);
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: var(--green);
+    max-width: 10vw;
+    min-height: 6vh;
+    border: 0;
+    transition: box-shadow 0.3s ease-in-out; /* Add a smooth transition to the box-shadow property */
+}
+
+#getStarted:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a box-shadow on hover for depth effect */
+}
