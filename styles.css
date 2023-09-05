@@ -204,3 +204,8 @@ footer {
     font-size: .9rem;
     font-weight: lighter;
 }
+
+a {
+    text-decoration: none; /* Remove the underline */
+    color: inherit; /* Use the color defined by the parent element */
+}

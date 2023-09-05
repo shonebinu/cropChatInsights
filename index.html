@@ -10,23 +10,25 @@
     </style>
 
     <link rel="stylesheet" href="styles.css">
+
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
         <div class="logo">CropChat Insights</div>
         <nav>
             <ul class="navUl">
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Services</li>
-                <li>Contact Us</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
 
-        <section class="home">
+        <section class="home" id="home">
             <div class="welcomeContainer">
 
                 <h1 class="welcomeText">Welcome to <span class="cropChat">CropChat<br> Insights!</span></h1>
@@ -39,7 +41,7 @@
 
         </section>    
 
-        <section class="about">
+        <section class="about" id="about">
             <img src="./assets/aboutImage.jpeg" alt="About Section" id="aboutImage">
 
             <div class="aboutContainer">
@@ -50,7 +52,7 @@
 
         </section>
 
-        <section class="services">
+        <section class="services" id="services">
 
             <div class="topLabelServices">
                 <h2 class="serviceH2"><span class="cropChat">CropChat</span> Services</h2>
@@ -68,24 +70,24 @@
             </div>
         </section>
 
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="contactHead"><h2>Contact <span class="cropChat">CropChat</span></h2></div>
 
             <div class="contactDivs">
 
-                <div class="githubContainer">
+                <div class="githubContainer" data-url="https://github.com/shonebinu/">
                     <img src="./assets/github.png" alt="Github logo">
                     <h4>GitHub</h4>
                     <p>@shonebinu</p>
                 </div>
 
-                <div class="mailContainer">
+                <div class="mailContainer" data-url="mailto:shonebinualias@gmail.com">
                     <img src="./assets/mail.png" alt="Mail logo">
                     <h4>Mail</h4>
                     <p>shonebinualias@gmail.com</p>
                 </div>
 
-                <div class="linkedinContainer">
+                <div class="linkedinContainer" data-url="https://www.linkedin.com/in/shonebinu/">
                     <img src="./assets/linkedin.png" alt="LinkedIn logo">
                     <h4>LinkedIn</h4>
                     <p>shonebinu</p>
