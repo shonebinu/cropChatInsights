@@ -1,6 +1,12 @@
 # cropChatInsights
 CropChat Insights - "Your Agricultural Knowledge Hub"
 
+## Azure Services used for this project
+- Azure Static Web Apps
+- Azure Language Service
+
+[Live Demo Link](https://lemon-ground-0268bff10.3.azurestaticapps.net/)
+
 ## Design Prototype 
 ![CropChat Insights Prototype Design](./CropChat_Insights_design.svg)
 
