@@ -146,7 +146,7 @@ h2 {
     display: flex;
     width: 100%;
     justify-content: center;
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 2.5rem;
 }
 
@@ -161,7 +161,7 @@ h2 {
 
 iframe {
     width: 30vw;
-    height: 30vh;
+    height: 33vh;
 }
 
 .contact {
